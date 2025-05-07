@@ -6,6 +6,7 @@ import { subjects } from "./subject";
 
 async function getUser(email: string) {
   // Get user from database and return user ID
+  console.log(email);
   return "123";
 }
 
